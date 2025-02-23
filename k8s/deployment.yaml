@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: account-service
-          image: joeltompt/account-service:latest
+          image: joeltompt/qorvia-account-service:latest
           ports:
             - containerPort: 8080
           envFrom:
